@@ -1,14 +1,14 @@
 # Algorithms
 Set of Algorithms I wrote over last few weeks. Written in Java.
 
-Category : \n
-File System \n
-Matrix Related \n
-Numbers/Arithmetic/Logic \n
-Searching Techniques \n
-Shortest Paths \n
-Sorting \n
-String Manipulation \n
+Category :
+- File System
+- Matrix Related
+- Numbers/Arithmetic/Logic
+- Searching Techniques
+- Shortest Paths
+- Sorting
+- String Manipulation
 
 /lib contains all external dependencies.
 
