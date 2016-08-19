@@ -73,7 +73,7 @@ public class AISubstring {
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */        
         AISubstring as = new AISubstring();
-        System.out.println("Kay re kartya, kiti chaaan jhala ahe nashta?! " + as.checkAISubstring());
+        System.out.println("Final result " + as.checkAISubstring());
     }
 }
 

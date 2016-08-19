@@ -15,7 +15,6 @@ import java.util.*;
  */
 
 
-/** Link to question : https://www.hackerrank.com/challenges/crush */
 public class IndianaJones {
     public static ArrayList<Integer> intArray;
     public static long sum = 8;

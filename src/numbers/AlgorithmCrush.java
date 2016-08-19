@@ -16,7 +16,6 @@ import java.util.*;
  */
 
 
-/** Link to question : https://www.hackerrank.com/challenges/crush */
 public class AlgorithmCrush {
     
     public static void main(String[] args) {

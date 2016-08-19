@@ -31,7 +31,7 @@ public class ShortestLength {
                 }
         }
         
-        System.out.println("Naya number hai compute hua hai by " + num1 + " + " + max + " = " +  (num1+max) );
+        System.out.println("New number computed by " + num1 + " + " + max + " = " +  (num1+max) );
         num1 = num1 + max;
         
         count++;

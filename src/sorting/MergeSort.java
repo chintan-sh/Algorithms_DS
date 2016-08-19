@@ -58,7 +58,6 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {1,3,6,4,5,2,7};
         MergeSort m = new MergeSort();
-        System.out.println("Kya bhai, kaisa? \n");
         System.out.println("Initial array " +  Arrays.toString(arr));
         System.out.println("Sorted Array is " + Arrays.toString(m.merge(arr)));
     }

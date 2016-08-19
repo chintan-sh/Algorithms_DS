@@ -41,14 +41,14 @@ public class SimpleAnagram {
            }
        }
        
-       System.out.println("Anagram wala!");
+       System.out.println("It's an Anagram");
    }
 
    
    public static void main(String[] args) {
         SimpleAnagram sm = new SimpleAnagram();
         //sm.Palindrome("N12N MNn?123 ,");
-        sm.findAnny("ayechodu","choddayeu");
+        sm.findAnny("momom","mmmoo");
    }
    
 }

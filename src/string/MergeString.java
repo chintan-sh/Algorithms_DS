@@ -71,7 +71,7 @@ public class MergeString {
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */        
         MergeString ms = new MergeString();
-        System.out.println("Kay re kartya, kiti chaaan jhala ahe nashta?! " + ms.checkIfMergeable());
+        System.out.println("Final o/p " + ms.checkIfMergeable());
     }
 }
 

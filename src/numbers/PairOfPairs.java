@@ -15,7 +15,6 @@ import java.util.*;
  */
 
 
-/** Link to question : https://www.hackerrank.com/challenges/crush */
 public class PairOfPairs {
     public int[] arr = {5,2,4,5,1,9};
     

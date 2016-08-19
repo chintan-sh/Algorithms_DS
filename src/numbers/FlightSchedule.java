@@ -21,8 +21,6 @@ import java.util.logging.Logger;
  */
 
 
-
-/** Link to question : https://www.hackerrank.com/challenges/crush */
 public class FlightSchedule {
     public static ArrayList<String> flightArray;
     

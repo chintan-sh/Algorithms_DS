@@ -39,12 +39,12 @@ public class AnagramDetection {
                         }
                 }
                  
-                System.out.println("Size batao thoda : " + letterCount.size());
-                System.out.println("Size strArr2 ka batao : " + strArr2.length);
+                System.out.println("Letter count size : " + letterCount.size());
+                System.out.println("Size strArr2 : " + strArr2.length);
                  
                 for (int j=0; j < strArr2.length; j++){
-                    System.out.println("Pehla value mila : " + strArr2[j]);
-                    System.out.println("Value mila hai hash se : " + letterCount.get(strArr2[j]));
+                    System.out.println("Value from strArr2 : " + strArr2[j]);
+                    System.out.println("Value from hash : " + letterCount.get(strArr2[j]));
                     if(letterCount.get(strArr2[j]) == null || letterCount.get(strArr2[j]) < 1){
                        missHit++;
                     }else{
@@ -58,45 +58,3 @@ public class AnagramDetection {
     }
 }
 
-
-
-/* Version 1 
-
-public class AnagramDetection {
-    
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int inputCount = input.nextInt();
-        input.nextLine();
-        String current;
-        int missHit = 0;
-        for(int i=0; i < inputCount; i++){
-             current = "hhpddlnnsjfoyxpciioigvjqzfbpllssuj" ;// input.nextLine();
-             if((current.length())% 2 != 0 ){
-                 System.out.println("-1");
-             }else{
-                 int strSize = (current.toCharArray().length);
-                 System.out.println("String size " +  strSize) ;
-                 int halfCount = strSize/2;
-                 char[] strArr1 = Arrays.copyOf(current.toCharArray(), (strSize/2));
-                 char[] strArr2 = Arrays.copyOfRange(current.toCharArray(),(strSize/2),strSize);
-                 Arrays.sort(strArr1);
-                 Arrays.sort(strArr2);
-                 missHit=0;
-                 
-                 System.out.println("Arr1 size " +  strArr1.length) ;
-                 System.out.println("Arr2 size " +  strArr2.length) ;
-                 for(int j=0 ; j < halfCount; j++){
-                     System.out.println("Value for j " + j + " is " +  strArr1[j] + " and " + strArr2[j]);
-                     if(strArr1[j] != strArr2[j]){
-                        missHit++;
-                     }
-                 }
-                 
-                 System.out.println(missHit);
-             }
-        }
-    }
-}
-
-*/
