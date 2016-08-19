@@ -3,7 +3,7 @@ Set of Algorithms I wrote over last few weeks. Written in Java.
 
 Category :
 - File System
-- Matrix Related
+- Matrices
 - Numbers/Arithmetic/Logic
 - Searching Techniques
 - Shortest Paths
