@@ -1,5 +1,5 @@
 # Algorithms
-Set of Algorithms I wrote over last few weeks. Written in Java.
+Set of Algorithms I wrote for fun. Written in Java.
 
 Category :
 - File System
