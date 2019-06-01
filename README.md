@@ -11,5 +11,3 @@ Category :
 - String Manipulation
 
 /lib contains all external dependencies.
-
-If you know a better way, I'd love to hear from you at chintan.shah104@gmail.com
